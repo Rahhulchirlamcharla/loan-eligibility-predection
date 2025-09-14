@@ -14,3 +14,16 @@ Built using **Python, Flask, Scikit-learn, MySQL, and HTML/CSS**.
 ---
 
 ## 📂 Project Structure
+LoanEligibilityPrediction/
+│── app.py # Flask backend
+│── train_model.py # ML model training script
+│── loan_model.pkl # Saved trained model
+│── loan.csv # Dataset
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
+│
+├── templates/
+│ └── index.html # Frontend form
+│
+├── static/
+│ └── style.css # CSS styles
